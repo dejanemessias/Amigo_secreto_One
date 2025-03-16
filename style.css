@@ -125,6 +125,25 @@ button {
     background-color: #a1a1a1;
 }
 
+/* Estilo específico para o botão de remover */
+.button-remove {
+    padding: 5px 8px; /* Mantém pequeno sem perder visibilidade */
+    font-size: 14px; /* Ajusta o tamanho do ícone */
+    border-radius: 8px; /* Arredondamento menor para manter o formato de caixinha */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra mais sutil */
+    border: 2px solid #ac0505; /* Mantém a borda preta */
+    background-color: #f39a9a83; /* Vermelho padrão */
+    color: white; /* Ícone em branco */
+    margin-left: 15px; /* Aumenta o espaçamento entre nome e botão */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease-in-out;
+}
+
+.button-remove:hover {
+    background-color: #cc0000; /* Vermelho mais escuro no hover */
+    transform: scale(1.1); /* Pequeno efeito de crescimento ao passar o mouse */
+}
+
 /* Listas */
 ul {
     list-style-type: none;
